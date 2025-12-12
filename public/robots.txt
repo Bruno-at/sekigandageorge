@@ -1,8 +1,13 @@
+# Robots.txt for SEKIGANDA GEORGE BRUNO Portfolio
+# Website Developer, App Builder, Programmer in Kampala, Uganda
+
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 1
 
 User-agent: Bingbot
 Allow: /
+Crawl-delay: 1
 
 User-agent: Twitterbot
 Allow: /
@@ -10,5 +15,16 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
+User-agent: LinkedInBot
+Allow: /
+
 User-agent: *
 Allow: /
+Crawl-delay: 2
+
+# Sitemap location
+Sitemap: https://sekigandageorge.com/sitemap.xml
+
+# Disallow admin and private areas
+Disallow: /api/
+Disallow: /admin/
