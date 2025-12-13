@@ -64,7 +64,8 @@ const Index = () => {
             }} transition={{
               duration: 0.6
             }}>
-                <span className="inline-flex items-center gap-2 px-4 py-2 mb-6 text-sm font-medium bg-secondary rounded-full text-muted-foreground">Web $ App Developer in Kampala, Uganda<MapPin size={14} className="text-primary" aria-hidden="true" />
+                <span className="inline-flex items-center gap-2 px-4 py-2 mb-6 text-sm font-medium bg-secondary rounded-full text-muted-foreground">
+                  <MapPin size={14} className="text-primary" aria-hidden="true" />
                   Website Developer in Kampala, Uganda
                 </span>
               </motion.div>
