@@ -19,14 +19,14 @@ const contactInfo = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'bruno@sekigandageorge.com',
-    href: 'mailto:bruno@sekigandageorge.com',
+    value: 'brunog0745090566@gmail.com',
+    href: 'mailto:brunog0745090566@gmail.com',
   },
   {
     icon: Phone,
     label: 'Phone',
-    value: '+256 700 000 000',
-    href: 'tel:+256700000000',
+    value: '+256 708 434 656',
+    href: 'tel:+256708434656',
   },
 ];
 
@@ -70,7 +70,7 @@ const Contact = () => {
     <>
       <SEOHead 
         title="Contact SEKIGANDA GEORGE BRUNO | Hire Website Developer Uganda"
-        description="Contact SEKIGANDA GEORGE 'BRUNO' - professional website developer, app builder, and programmer in Kampala, Uganda. Get a free quote for your web development project. Email: bruno@sekigandageorge.com. Best freelance website developer in Uganda."
+        description="Contact SEKIGANDA GEORGE 'BRUNO' - professional website developer, app builder, and programmer in Kampala, Uganda. Get a free quote for your web development project. Email: brunog0745090566@gmail.com. Best freelance website developer in Uganda."
         canonicalUrl="https://sekigandageorge.com/contact"
         keywords="contact Bruno developer, hire website developer Uganda, contact Sekiganda George, web developer Kampala contact, freelance programmer Uganda hire, get quote website development"
       />
