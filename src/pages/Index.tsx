@@ -10,7 +10,7 @@ import { WhyChooseBruno } from '@/components/WhyChooseBruno';
 import { SEOHead } from '@/components/SEOHead';
 import { Code, Globe, Server, Smartphone, ShoppingCart } from 'lucide-react';
 
-import brunoProfile from '@/assets/bruno-profile.jpg';
+import brunoProfile from '@/assets/bruno-profile.png';
 import projectEcommerce from '@/assets/project-ecommerce.jpg';
 import projectDjango from '@/assets/project-django.jpg';
 
