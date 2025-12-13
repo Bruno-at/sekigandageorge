@@ -9,56 +9,40 @@ import { ServiceCard } from '@/components/ServiceCard';
 import { WhyChooseBruno } from '@/components/WhyChooseBruno';
 import { SEOHead } from '@/components/SEOHead';
 import { Code, Globe, Server, Smartphone, ShoppingCart } from 'lucide-react';
-
 import brunoProfile from '@/assets/bruno-profile.png';
 import projectEcommerce from '@/assets/project-ecommerce.jpg';
 import projectDjango from '@/assets/project-django.jpg';
-
-const featuredProjects = [
-  {
-    title: 'E-Commerce Platform - Electronics Store',
-    description: 'A full-featured electronics e-commerce platform with inventory management, payment integration, and analytics dashboard. Built by SEKIGANDA GEORGE BRUNO.',
-    technologies: ['Django', 'Python', 'PostgreSQL', 'Stripe'],
-    image: projectEcommerce,
-    liveUrl: '#',
-    githubUrl: '#',
-  },
-  {
-    title: 'Business Management System - Django',
-    description: 'Custom Django-based business management solution with user roles, reporting, and automated workflows. Professional web development by Bruno.',
-    technologies: ['Django', 'REST API', 'React', 'Docker'],
-    image: projectDjango,
-    liveUrl: '#',
-    githubUrl: '#',
-  },
-];
-
-const services = [
-  {
-    icon: Globe,
-    title: 'Website Design',
-    description: 'Beautiful, modern website designs that captivate your audience and reflect your brand identity. Professional web design services in Uganda.',
-  },
-  {
-    icon: Code,
-    title: 'Website Development',
-    description: 'Clean, performant code using modern technologies like React, Django, and more. Best website developer in Kampala.',
-  },
-  {
-    icon: ShoppingCart,
-    title: 'E-Commerce Development',
-    description: 'Robust online stores with secure payments, inventory management, and analytics. E-commerce specialist in Uganda.',
-  },
-];
-
+const featuredProjects = [{
+  title: 'E-Commerce Platform - Electronics Store',
+  description: 'A full-featured electronics e-commerce platform with inventory management, payment integration, and analytics dashboard. Built by SEKIGANDA GEORGE BRUNO.',
+  technologies: ['Django', 'Python', 'PostgreSQL', 'Stripe'],
+  image: projectEcommerce,
+  liveUrl: '#',
+  githubUrl: '#'
+}, {
+  title: 'Business Management System - Django',
+  description: 'Custom Django-based business management solution with user roles, reporting, and automated workflows. Professional web development by Bruno.',
+  technologies: ['Django', 'REST API', 'React', 'Docker'],
+  image: projectDjango,
+  liveUrl: '#',
+  githubUrl: '#'
+}];
+const services = [{
+  icon: Globe,
+  title: 'Website Design',
+  description: 'Beautiful, modern website designs that captivate your audience and reflect your brand identity. Professional web design services in Uganda.'
+}, {
+  icon: Code,
+  title: 'Website Development',
+  description: 'Clean, performant code using modern technologies like React, Django, and more. Best website developer in Kampala.'
+}, {
+  icon: ShoppingCart,
+  title: 'E-Commerce Development',
+  description: 'Robust online stores with secure payments, inventory management, and analytics. E-commerce specialist in Uganda.'
+}];
 const Index = () => {
-  return (
-    <>
-      <SEOHead 
-        title='SEKIGANDA GEORGE "BRUNO" | Website Developer, App Builder, Programmer in Uganda'
-        description="SEKIGANDA GEORGE 'BRUNO' (Sekiganda Bruno, Sekigenda George, George Bruno) is a professional website developer, app builder, and Python/Django programmer in Kampala, Uganda. Best freelance website developer offering web design, e-commerce development, and mobile app backend services."
-        canonicalUrl="https://sekigandageorge.com/"
-      />
+  return <>
+      <SEOHead title='SEKIGANDA GEORGE "BRUNO" | Website Developer, App Builder, Programmer in Uganda' description="SEKIGANDA GEORGE 'BRUNO' (Sekiganda Bruno, Sekigenda George, George Bruno) is a professional website developer, app builder, and Python/Django programmer in Kampala, Uganda. Best freelance website developer offering web design, e-commerce development, and mobile app backend services." canonicalUrl="https://sekigandageorge.com/" />
 
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center overflow-hidden" aria-labelledby="hero-heading">
@@ -71,55 +55,74 @@ const Index = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Text Content */}
             <div className="order-2 lg:order-1">
-              <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6 }}
-              >
+              <motion.div initial={{
+              opacity: 0,
+              y: 30
+            }} animate={{
+              opacity: 1,
+              y: 0
+            }} transition={{
+              duration: 0.6
+            }}>
                 <span className="inline-flex items-center gap-2 px-4 py-2 mb-6 text-sm font-medium bg-secondary rounded-full text-muted-foreground">
                   <MapPin size={14} className="text-primary" aria-hidden="true" />
                   Website Developer in Kampala, Uganda
                 </span>
               </motion.div>
 
-              <motion.h1
-                id="hero-heading"
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.1 }}
-                className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-4 leading-tight"
-              >
+              <motion.h1 id="hero-heading" initial={{
+              opacity: 0,
+              y: 30
+            }} animate={{
+              opacity: 1,
+              y: 0
+            }} transition={{
+              duration: 0.6,
+              delay: 0.1
+            }} className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-4 leading-tight">
                 SEKIGANDA GEORGE
                 <br />
                 <span className="gradient-text">"BRUNO"</span>
               </motion.h1>
 
-              <motion.p
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.2 }}
-                className="text-xl md:text-2xl text-muted-foreground mb-4 font-display font-light"
-              >
+              <motion.p initial={{
+              opacity: 0,
+              y: 30
+            }} animate={{
+              opacity: 1,
+              y: 0
+            }} transition={{
+              duration: 0.6,
+              delay: 0.2
+            }} className="text-xl md:text-2xl text-muted-foreground mb-4 font-display font-light">
                 Website Developer | App Builder | Programmer
               </motion.p>
 
-              <motion.p
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.3 }}
-                className="text-muted-foreground text-lg mb-10 max-w-xl leading-relaxed"
-              >
+              <motion.p initial={{
+              opacity: 0,
+              y: 30
+            }} animate={{
+              opacity: 1,
+              y: 0
+            }} transition={{
+              duration: 0.6,
+              delay: 0.3
+            }} className="text-muted-foreground text-lg mb-10 max-w-xl leading-relaxed">
                 I'm a professional <strong>website developer</strong> and <strong>software developer</strong> based in Uganda. 
                 I craft modern, scalable web applications using <strong>Python</strong>, <strong>Django</strong>, <strong>JavaScript</strong>, and <strong>React</strong>. 
                 Let's turn your ideas into digital reality.
               </motion.p>
 
-              <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 0.4 }}
-                className="flex flex-wrap gap-4"
-              >
+              <motion.div initial={{
+              opacity: 0,
+              y: 30
+            }} animate={{
+              opacity: 1,
+              y: 0
+            }} transition={{
+              duration: 0.6,
+              delay: 0.4
+            }} className="flex flex-wrap gap-4">
                 <Button asChild variant="hero">
                   <Link to="/contact" title="Hire SEKIGANDA GEORGE BRUNO - Website Developer">
                     Hire Me
@@ -135,42 +138,49 @@ const Index = () => {
             </div>
 
             {/* Profile Image */}
-            <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.8, delay: 0.2 }}
-              className="order-1 lg:order-2 flex justify-center"
-            >
+            <motion.div initial={{
+            opacity: 0,
+            scale: 0.9
+          }} animate={{
+            opacity: 1,
+            scale: 1
+          }} transition={{
+            duration: 0.8,
+            delay: 0.2
+          }} className="order-1 lg:order-2 flex justify-center">
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-primary/10 rounded-3xl blur-2xl animate-glow-pulse" />
                 <figure className="relative w-72 h-72 md:w-96 md:h-96 rounded-3xl overflow-hidden border-2 border-primary/20">
-                  <img
-                    src={brunoProfile}
-                    alt="SEKIGANDA GEORGE BRUNO - Professional Website Developer, App Builder, and Programmer in Kampala, Uganda"
-                    className="w-full h-full object-cover"
-                    loading="eager"
-                  />
+                  <img src={brunoProfile} alt="SEKIGANDA GEORGE BRUNO - Professional Website Developer, App Builder, and Programmer in Kampala, Uganda" className="w-full h-full object-cover" loading="eager" />
                   <figcaption className="sr-only">
                     SEKIGANDA GEORGE BRUNO - Website Developer and Programmer based in Kampala, Uganda
                   </figcaption>
                 </figure>
                 {/* Floating Badge */}
-                <motion.div
-                  initial={{ opacity: 0, x: 20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.5, delay: 0.8 }}
-                  className="absolute -right-4 top-1/4 glass-card px-4 py-3"
-                >
+                <motion.div initial={{
+                opacity: 0,
+                x: 20
+              }} animate={{
+                opacity: 1,
+                x: 0
+              }} transition={{
+                duration: 0.5,
+                delay: 0.8
+              }} className="absolute -right-4 top-1/4 glass-card px-4 py-3">
                   <p className="text-sm font-medium text-foreground">5+ Years</p>
                   <p className="text-xs text-muted-foreground">Web Development</p>
                 </motion.div>
-                <motion.div
-                  initial={{ opacity: 0, x: -20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.5, delay: 1 }}
-                  className="absolute -left-4 bottom-1/4 glass-card px-4 py-3"
-                >
-                  <p className="text-sm font-medium text-foreground">20+</p>
+                <motion.div initial={{
+                opacity: 0,
+                x: -20
+              }} animate={{
+                opacity: 1,
+                x: 0
+              }} transition={{
+                duration: 0.5,
+                delay: 1
+              }} className="absolute -left-4 bottom-1/4 glass-card px-4 py-3">
+                  <p className="text-sm font-medium text-foreground">6+</p>
                   <p className="text-xs text-muted-foreground">Projects Done</p>
                 </motion.div>
               </div>
@@ -185,15 +195,9 @@ const Index = () => {
       {/* Featured Projects Section */}
       <section className="section-padding" aria-labelledby="projects-heading">
         <div className="container-custom">
-          <SectionHeading
-            badge="Portfolio"
-            title="Featured Web Development Projects"
-            description="A selection of my recent website development and app building work showcasing my skills as a professional programmer."
-          />
+          <SectionHeading badge="Portfolio" title="Featured Web Development Projects" description="A selection of my recent website development and app building work showcasing my skills as a professional programmer." />
           <div className="grid md:grid-cols-2 gap-8">
-            {featuredProjects.map((project, index) => (
-              <ProjectCard key={project.title} {...project} index={index} />
-            ))}
+            {featuredProjects.map((project, index) => <ProjectCard key={project.title} {...project} index={index} />)}
           </div>
           <AnimatedSection className="text-center mt-12">
             <Button asChild variant="outline" size="lg">
@@ -209,15 +213,9 @@ const Index = () => {
       {/* Services Preview Section */}
       <section className="section-padding bg-card/30" aria-labelledby="services-heading">
         <div className="container-custom">
-          <SectionHeading
-            badge="Services"
-            title="Website Development Services"
-            description="Professional website developer, app builder, and programming services tailored to your business needs."
-          />
+          <SectionHeading badge="Services" title="Website Development Services" description="Professional website developer, app builder, and programming services tailored to your business needs." />
           <div className="grid md:grid-cols-3 gap-8">
-            {services.map((service, index) => (
-              <ServiceCard key={service.title} {...service} index={index} />
-            ))}
+            {services.map((service, index) => <ServiceCard key={service.title} {...service} index={index} />)}
           </div>
           <AnimatedSection className="text-center mt-12">
             <Button asChild variant="outline" size="lg">
@@ -253,8 +251,6 @@ const Index = () => {
           </AnimatedSection>
         </div>
       </section>
-    </>
-  );
+    </>;
 };
-
 export default Index;
