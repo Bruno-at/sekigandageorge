@@ -79,9 +79,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3 text-muted-foreground">
                 <Mail size={18} className="text-primary flex-shrink-0" aria-hidden="true" />
-                <a href="mailto:bruno@sekigandageorge.com" className="hover:text-primary transition-colors" title="Email SEKIGANDA GEORGE BRUNO">
-                  bruno@sekigandageorge.com
-                </a>
+                <a href="mailto:bruno@sekigandageorge.com" className="hover:text-primary transition-colors" title="Email SEKIGANDA GEORGE BRUNO">brunog0745090566@gmail.com</a>
               </li>
               <li className="flex items-center gap-3 text-muted-foreground">
                 <Phone size={18} className="text-primary flex-shrink-0" aria-hidden="true" />
