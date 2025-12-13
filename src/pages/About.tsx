@@ -5,45 +5,27 @@ import { AnimatedSection } from '@/components/AnimatedSection';
 import { SectionHeading } from '@/components/SectionHeading';
 import { SkillBadge } from '@/components/SkillBadge';
 import { SEOHead } from '@/components/SEOHead';
-
 import brunoProfile from '@/assets/bruno-profile.png';
-
-const skills = [
-  'HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'Python', 'Django',
-  'React', 'REST APIs', 'PostgreSQL', 'MySQL', 'Git', 'Docker',
-  'Tailwind CSS', 'Bootstrap', 'Node.js', 'API Integrations'
-];
-
-const experience = [
-  {
-    year: '2023 - Present',
-    title: 'Senior Website Developer',
-    company: 'Freelance - Kampala, Uganda',
-    description: 'Building custom web solutions for clients across Africa and beyond. Specializing in Django backends, React frontends, and e-commerce development as the best website developer in Kampala.',
-  },
-  {
-    year: '2021 - 2023',
-    title: 'Full Stack Developer',
-    company: 'Tech Startup - Uganda',
-    description: 'Developed and maintained multiple web applications, implemented API integrations, and led junior developers in website and app development projects.',
-  },
-  {
-    year: '2019 - 2021',
-    title: 'Junior Web Developer',
-    company: 'Digital Agency - Kampala',
-    description: 'Started my professional journey building websites and learning best practices in web development and programming.',
-  },
-];
-
+const skills = ['HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'Python', 'Django', 'React', 'REST APIs', 'PostgreSQL', 'MySQL', 'Git', 'Docker', 'Tailwind CSS', 'Bootstrap', 'Node.js', 'API Integrations'];
+const experience = [{
+  year: '2023 - Present',
+  title: 'Senior Website Developer',
+  company: 'Freelance - Kampala, Uganda',
+  description: 'Building custom web solutions for clients across Africa and beyond. Specializing in Django backends, React frontends, and e-commerce development as the best website developer in Kampala.'
+}, {
+  year: '2021 - 2023',
+  title: 'Full Stack Developer',
+  company: 'Tech Startup - Uganda',
+  description: 'Developed and maintained multiple web applications, implemented API integrations, and led junior developers in website and app development projects.'
+}, {
+  year: '2019 - 2021',
+  title: 'Junior Web Developer',
+  company: 'Digital Agency - Kampala',
+  description: 'Started my professional journey building websites and learning best practices in web development and programming.'
+}];
 const About = () => {
-  return (
-    <>
-      <SEOHead 
-        title="About SEKIGANDA GEORGE BRUNO | Website Developer, App Builder in Uganda"
-        description="Learn about SEKIGANDA GEORGE 'BRUNO' (Sekiganda Bruno, Sekigenda George) - a professional website developer, app builder, and Python/Django programmer based in Kampala, Uganda. 5+ years of experience in web development, software development, and e-commerce solutions."
-        canonicalUrl="https://sekigandageorge.com/about-bruno"
-        keywords="Sekiganda George Bruno about, Sekiganda Bruno biography, website developer Uganda, Django developer Kampala, Python programmer Africa, freelance web developer Uganda, George Bruno developer, Sekigenda programmer"
-      />
+  return <>
+      <SEOHead title="About SEKIGANDA GEORGE BRUNO | Website Developer, App Builder in Uganda" description="Learn about SEKIGANDA GEORGE 'BRUNO' (Sekiganda Bruno, Sekigenda George) - a professional website developer, app builder, and Python/Django programmer based in Kampala, Uganda. 5+ years of experience in web development, software development, and e-commerce solutions." canonicalUrl="https://sekigandageorge.com/about-bruno" keywords="Sekiganda George Bruno about, Sekiganda Bruno biography, website developer Uganda, Django developer Kampala, Python programmer Africa, freelance web developer Uganda, George Bruno developer, Sekigenda programmer" />
 
       {/* Hero Section */}
       <section className="section-padding pt-32" aria-labelledby="about-heading">
@@ -54,12 +36,7 @@ const About = () => {
               <figure className="relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent rounded-3xl blur-2xl" />
                 <div className="relative aspect-[4/5] rounded-3xl overflow-hidden border border-border">
-                  <img
-                    src={brunoProfile}
-                    alt="SEKIGANDA GEORGE BRUNO - Professional Website Developer, App Builder, and Programmer in Kampala, Uganda"
-                    className="w-full h-full object-cover"
-                    loading="lazy"
-                  />
+                  <img src={brunoProfile} alt="SEKIGANDA GEORGE BRUNO - Professional Website Developer, App Builder, and Programmer in Kampala, Uganda" className="w-full h-full object-cover" loading="lazy" />
                 </div>
                 <figcaption className="mt-4 text-center text-sm text-muted-foreground">
                   SEKIGANDA GEORGE "BRUNO" — Website Developer & Programmer in Uganda
@@ -118,7 +95,7 @@ const About = () => {
                   </div>
                   <div className="flex items-center gap-2 text-muted-foreground">
                     <Award size={18} className="text-primary" aria-hidden="true" />
-                    <span>20+ Projects Completed</span>
+                    <span>6+ Projects Completed</span>
                   </div>
                 </div>
               </AnimatedSection>
@@ -130,16 +107,10 @@ const About = () => {
       {/* Skills Section */}
       <section className="section-padding bg-card/30" aria-labelledby="skills-heading">
         <div className="container-custom">
-          <SectionHeading
-            badge="Expertise"
-            title="Website Developer Skills & Technologies"
-            description="Tools and technologies I use as a professional programmer and web developer to bring your ideas to life."
-          />
+          <SectionHeading badge="Expertise" title="Website Developer Skills & Technologies" description="Tools and technologies I use as a professional programmer and web developer to bring your ideas to life." />
           <AnimatedSection>
             <div className="flex flex-wrap justify-center gap-3 max-w-4xl mx-auto">
-              {skills.map((skill, index) => (
-                <SkillBadge key={skill} name={skill} index={index} />
-              ))}
+              {skills.map((skill, index) => <SkillBadge key={skill} name={skill} index={index} />)}
             </div>
           </AnimatedSection>
         </div>
@@ -148,14 +119,9 @@ const About = () => {
       {/* Experience Section */}
       <section className="section-padding" aria-labelledby="experience-heading">
         <div className="container-custom">
-          <SectionHeading
-            badge="Journey"
-            title="Web Development Experience"
-            description="My professional journey as a website developer and programmer in Uganda."
-          />
+          <SectionHeading badge="Journey" title="Web Development Experience" description="My professional journey as a website developer and programmer in Uganda." />
           <div className="max-w-3xl mx-auto">
-            {experience.map((item, index) => (
-              <AnimatedSection key={item.year} delay={index * 0.1}>
+            {experience.map((item, index) => <AnimatedSection key={item.year} delay={index * 0.1}>
                 <article className="relative pl-8 pb-12 last:pb-0 border-l-2 border-border last:border-transparent">
                   <div className="absolute left-0 top-0 w-4 h-4 -translate-x-[9px] rounded-full bg-primary" aria-hidden="true" />
                   <span className="inline-block px-3 py-1 mb-2 text-xs font-medium bg-primary/10 text-primary rounded-full">
@@ -167,13 +133,10 @@ const About = () => {
                   <p className="text-primary font-medium mb-2">{item.company}</p>
                   <p className="text-muted-foreground">{item.description}</p>
                 </article>
-              </AnimatedSection>
-            ))}
+              </AnimatedSection>)}
           </div>
         </div>
       </section>
-    </>
-  );
+    </>;
 };
-
 export default About;
