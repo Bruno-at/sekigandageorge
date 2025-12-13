@@ -102,9 +102,9 @@ const About = () => {
 
               <AnimatedSection delay={0.6}>
                 <Button variant="hero" asChild>
-                  <a href="/resume-sekiganda-george-bruno.pdf" download aria-label="Download SEKIGANDA GEORGE BRUNO's Resume/CV">
+                  <a href="/resume" aria-label="View SEKIGANDA GEORGE BRUNO's Resume/CV">
                     <Download size={20} />
-                    Download My Resume
+                    View My Resume
                   </a>
                 </Button>
               </AnimatedSection>
