@@ -9,6 +9,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
+import Resume from "./pages/Resume";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -27,6 +28,7 @@ const App = () => (
             <Route path="/projects-portfolio" element={<Projects />} />
             <Route path="/services-web-app-developer" element={<Services />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/resume" element={<Resume />} />
             {/* Redirects for old URLs */}
             <Route path="/about" element={<Navigate to="/about-bruno" replace />} />
             <Route path="/projects" element={<Navigate to="/projects-portfolio" replace />} />
