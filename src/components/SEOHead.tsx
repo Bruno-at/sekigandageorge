@@ -44,7 +44,7 @@ const personSchema = {
     "addressCountry": "UG"
   },
   "sameAs": [
-    "https://github.com/bruno_at",
+    "https://github.com/Bruno-at",
     "https://www.linkedin.com/in/sekiganda-george-bruno",
     "https://www.youtube.com/@bruno_dev",
     "https://facebook.com/sekigandageorgebruno"

@@ -31,7 +31,7 @@ const contactInfo = [
 ];
 
 const socialLinks = [
-  { icon: Github, href: 'https://github.com/bruno_at', label: 'GitHub - SEKIGANDA GEORGE BRUNO', title: 'Follow Bruno on GitHub' },
+  { icon: Github, href: 'https://github.com/Bruno-at', label: 'GitHub - SEKIGANDA GEORGE BRUNO', title: 'Follow Bruno on GitHub' },
   { icon: Linkedin, href: 'https://www.linkedin.com/in/sekiganda-george-bruno', label: 'LinkedIn - Sekiganda George Bruno', title: 'Connect with Bruno on LinkedIn' },
   { icon: Youtube, href: 'https://www.youtube.com/@bruno_dev', label: 'YouTube - Bruno Developer', title: 'Subscribe to Bruno on YouTube' },
 ];
