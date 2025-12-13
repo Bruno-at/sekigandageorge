@@ -79,11 +79,11 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3 text-muted-foreground">
                 <Mail size={18} className="text-primary flex-shrink-0" aria-hidden="true" />
-                <a href="mailto:bruno@sekigandageorge.com" className="hover:text-primary transition-colors" title="Email SEKIGANDA GEORGE BRUNO">brunog0745090566@gmail.com</a>
+                <a href="mailto:brunog0745090566@gmail.com" className="hover:text-primary transition-colors" title="Email SEKIGANDA GEORGE BRUNO">brunog0745090566@gmail.com</a>
               </li>
               <li className="flex items-center gap-3 text-muted-foreground">
                 <Phone size={18} className="text-primary flex-shrink-0" aria-hidden="true" />
-                <a href="tel:+256700000000" className="hover:text-primary transition-colors" title="Call SEKIGANDA GEORGE BRUNO - Website Developer">+256 708434656</a>
+                <a href="tel:+256708434656" className="hover:text-primary transition-colors" title="Call SEKIGANDA GEORGE BRUNO - Website Developer">+256 708 434 656</a>
               </li>
             </ul>
           </div>
