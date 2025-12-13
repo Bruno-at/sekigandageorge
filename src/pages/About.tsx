@@ -6,7 +6,7 @@ import { SectionHeading } from '@/components/SectionHeading';
 import { SkillBadge } from '@/components/SkillBadge';
 import { SEOHead } from '@/components/SEOHead';
 
-import brunoProfile from '@/assets/bruno-profile.jpg';
+import brunoProfile from '@/assets/bruno-profile.png';
 
 const skills = [
   'HTML5', 'CSS3', 'JavaScript', 'TypeScript', 'Python', 'Django',
