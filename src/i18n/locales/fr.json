@@ -1,0 +1,144 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "services": "Services",
+    "contact": "Contact",
+    "hireMe": "Me Recruter"
+  },
+  "hero": {
+    "location": "Développeur Web à Kampala, Ouganda",
+    "title1": "SEKIGANDA GEORGE",
+    "title2": "\"BRUNO\"",
+    "subtitle": "Développeur Web | Créateur d'Applications | Programmeur",
+    "description": "Je suis un développeur web et développeur de logiciels professionnel basé en Ouganda. Je crée des applications web modernes et évolutives en utilisant Python, Django, JavaScript et React. Transformons vos idées en réalité numérique.",
+    "viewProjects": "Voir les Projets",
+    "yearsExperience": "5+ Ans",
+    "webDevelopment": "Développement Web",
+    "projectsDone": "Projets Réalisés"
+  },
+  "whyChoose": {
+    "badge": "Pourquoi Me Choisir",
+    "title": "Pourquoi Choisir SEKIGANDA GEORGE BRUNO",
+    "description": "Ce qui me distingue en tant que développeur web en Ouganda"
+  },
+  "projects": {
+    "badge": "Portfolio",
+    "title": "Projets de Développement Web en Vedette",
+    "description": "Une sélection de mes travaux récents de développement web et de création d'applications démontrant mes compétences en tant que programmeur professionnel.",
+    "viewAll": "Voir Tous les Projets",
+    "pageTitle": "Projets de Développement Web par SEKIGANDA GEORGE BRUNO",
+    "pageDescription": "Une vitrine de mon travail en tant que développeur web et créateur d'applications, démontrant mon expertise dans les plateformes e-commerce, les systèmes d'entreprise et les solutions web personnalisées.",
+    "ctaTitle": "Vous Avez un Projet Web en Tête?",
+    "ctaDescription": "Vous cherchez un développeur web professionnel en Ouganda? Que vous ayez besoin d'un site web, d'une application web ou d'une plateforme e-commerce, SEKIGANDA GEORGE BRUNO peut vous aider à concrétiser votre vision.",
+    "startProject": "Démarrer un Projet"
+  },
+  "services": {
+    "badge": "Services",
+    "title": "Services de Développement Web",
+    "description": "Développeur web professionnel, créateur d'applications et services de programmation adaptés aux besoins de votre entreprise.",
+    "viewAll": "Tous les Services",
+    "pageTitle": "Services de Développement Web par SEKIGANDA GEORGE BRUNO",
+    "pageDescription": "Développeur web professionnel, créateur d'applications et services de programmation pour aider votre entreprise à réussir dans le monde numérique. Basé à Kampala, Ouganda, servant des clients dans le monde entier.",
+    "websiteDesign": "Design de Sites Web",
+    "websiteDesignDesc": "Des designs de sites web beaux et modernes qui captivent votre audience et reflètent l'identité de votre marque.",
+    "websiteDevelopment": "Développement de Sites Web",
+    "websiteDevelopmentDesc": "Code propre et performant utilisant des technologies modernes comme React, Django et plus encore.",
+    "ecommerce": "Développement E-Commerce",
+    "ecommerceDesc": "Boutiques en ligne robustes avec paiements sécurisés, gestion des stocks et analytiques.",
+    "djangoBackend": "Développement Backend Django",
+    "djangoBackendDesc": "Expertise Django et Python pour vos besoins backend. APIs REST, conception de base de données, authentification utilisateur.",
+    "mobileBackend": "Backend Application Mobile",
+    "mobileBackendDesc": "Systèmes backend puissants pour alimenter vos applications mobiles. Authentification utilisateur, notifications push, synchronisation des données en temps réel.",
+    "apiIntegrations": "Intégrations API",
+    "apiIntegrationsDesc": "Intégration transparente avec des APIs et services tiers. Passerelles de paiement, plateformes de médias sociaux, services email."
+  },
+  "process": {
+    "badge": "Ma Méthode",
+    "title": "Processus de Développement Web",
+    "description": "Une approche rationalisée pour fournir des résultats de développement web et d'applications de haute qualité.",
+    "discovery": "Découverte",
+    "discoveryDesc": "Nous discutons des exigences de votre projet, objectifs et calendrier pour votre site web ou application.",
+    "planning": "Planification",
+    "planningDesc": "Je crée un plan de projet détaillé et une architecture technique pour votre projet de développement web.",
+    "development": "Développement",
+    "developmentDesc": "Construction de votre site web ou application avec des mises à jour régulières et des boucles de rétroaction.",
+    "launch": "Lancement",
+    "launchDesc": "Tests, déploiement et support post-lancement pour votre nouveau site web."
+  },
+  "trust": {
+    "title": "Pourquoi Engager SEKIGANDA GEORGE BRUNO comme Votre Développeur Web?",
+    "description": "En tant que développeur web indépendant en Ouganda, j'offre un service personnalisé, des prix compétitifs et un engagement envers la qualité que les grandes agences ne peuvent égaler.",
+    "yearsExp": "Années d'Expérience",
+    "projectsCompleted": "Projets Réalisés",
+    "clientSatisfaction": "Satisfaction Client"
+  },
+  "cta": {
+    "title": "Prêt à Démarrer Votre Projet Web?",
+    "description": "Besoin d'un développeur web professionnel en Ouganda? Collaborons et construisons quelque chose d'incroyable ensemble.",
+    "getInTouch": "Me Contacter",
+    "getQuote": "Obtenir un Devis Gratuit",
+    "readyTitle": "Prêt à Commencer avec Votre Site Web?",
+    "readyDescription": "Discutons de votre projet et trouvons la solution de développement web parfaite pour votre entreprise."
+  },
+  "about": {
+    "badge": "À Propos de Moi",
+    "greeting": "Bonjour, je suis",
+    "intro": "Je suis SEKIGANDA GEORGE \"BRUNO\" (également connu sous le nom de Sekiganda Bruno, Sekigenda George, George Bruno), un Développeur Web passionné, Créateur d'Applications et Programmeur basé à Kampala, Ouganda. Avec un amour profond pour la technologie et la résolution de problèmes, j'ai dédié ma carrière à créer des expériences numériques exceptionnelles.",
+    "journey": "Mon parcours a commencé par une curiosité sur le fonctionnement des sites web, qui s'est transformée en une carrière à part entière en tant que développeur de logiciels. Aujourd'hui, je me spécialise dans la construction de systèmes backend robustes avec Django et Python, la création de frontends réactifs avec des frameworks JavaScript modernes comme React.",
+    "freelance": "En tant que développeur web indépendant en Ouganda, je sers des clients à travers Kampala et au-delà, aidant les entreprises à établir leur présence numérique grâce au développement web professionnel.",
+    "location": "Kampala, Ouganda",
+    "experience": "5+ Ans d'Expérience",
+    "projectsCompleted": "6+ Projets Réalisés",
+    "viewResume": "Voir Mon CV",
+    "skillsBadge": "Expertise",
+    "skillsTitle": "Compétences et Technologies de Développeur Web",
+    "skillsDescription": "Outils et technologies que j'utilise en tant que programmeur professionnel et développeur web pour donner vie à vos idées.",
+    "journeyBadge": "Parcours",
+    "journeyTitle": "Expérience en Développement Web",
+    "journeyDescription": "Mon parcours professionnel en tant que développeur web et programmeur en Ouganda."
+  },
+  "contact": {
+    "badge": "Me Contacter",
+    "title": "Contacter SEKIGANDA GEORGE BRUNO",
+    "description": "Vous avez un projet web en tête ou vous voulez simplement dire bonjour? J'aimerais avoir de vos nouvelles. Discutons de comment je peux vous aider avec vos besoins de développement web.",
+    "letsConnect": "Connectons-nous",
+    "location": "Localisation",
+    "email": "Email",
+    "phone": "Téléphone",
+    "responseTime": "Je réponds généralement dans",
+    "businessDays": "1-2 jours ouvrables",
+    "followOn": "Suivez SEKIGANDA GEORGE BRUNO sur",
+    "sendMessage": "Envoyer un Message à Bruno",
+    "yourName": "Votre Nom",
+    "emailAddress": "Adresse Email",
+    "subject": "Sujet",
+    "yourMessage": "Votre Message",
+    "messagePlaceholder": "Parlez-moi de votre projet de site web ou d'application...",
+    "send": "Envoyer le Message à Bruno",
+    "sending": "Envoi en cours...",
+    "messageSent": "Message Envoyé!",
+    "thankYou": "Merci de nous avoir contacté. SEKIGANDA GEORGE BRUNO vous répondra dans 1-2 jours ouvrables."
+  },
+  "footer": {
+    "description": "SEKIGANDA GEORGE \"BRUNO\" — Développeur Web Professionnel, Créateur d'Applications & Programmeur basé à Kampala, Ouganda. Création de solutions numériques qui font la différence.",
+    "quickLinks": "Liens Rapides",
+    "contactDeveloper": "Contacter le Développeur Web",
+    "copyright": "© {year} SEKIGANDA GEORGE \"BRUNO\" — Développeur Web, Créateur d'Applications, Programmeur. Tous droits réservés.",
+    "designedBy": "Conçu par"
+  },
+  "resume": {
+    "title": "CV / Curriculum Vitae",
+    "description": "Voir le CV professionnel de SEKIGANDA GEORGE BRUNO - Développeur Web en Ouganda",
+    "noResume": "Aucun CV téléchargé pour le moment.",
+    "checkBack": "Veuillez revenir plus tard ou contactez-moi pour plus d'informations sur mon expérience et mes qualifications.",
+    "contactMe": "Me Contacter"
+  },
+  "languages": {
+    "en": "Anglais",
+    "sw": "Swahili",
+    "lg": "Luganda",
+    "fr": "Français"
+  }
+}

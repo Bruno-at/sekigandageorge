@@ -1,0 +1,144 @@
+{
+  "nav": {
+    "home": "Nyumbani",
+    "about": "Kuhusu",
+    "projects": "Miradi",
+    "services": "Huduma",
+    "contact": "Wasiliana",
+    "hireMe": "Niajiri"
+  },
+  "hero": {
+    "location": "Mtengenezaji wa Tovuti huko Kampala, Uganda",
+    "title1": "SEKIGANDA GEORGE",
+    "title2": "\"BRUNO\"",
+    "subtitle": "Mtengenezaji wa Tovuti | Mjenzi wa Programu | Programu",
+    "description": "Mimi ni mtengenezaji wa tovuti na programu mzuri ninayeishi Uganda. Ninaunda programu za kisasa za wavuti kwa kutumia Python, Django, JavaScript, na React. Hebu tugeuze mawazo yako kuwa ukweli wa kidijitali.",
+    "viewProjects": "Angalia Miradi",
+    "yearsExperience": "Miaka 5+",
+    "webDevelopment": "Utengenezaji wa Tovuti",
+    "projectsDone": "Miradi Iliyokamilika"
+  },
+  "whyChoose": {
+    "badge": "Kwa Nini Unichague",
+    "title": "Kwa Nini Uchague SEKIGANDA GEORGE BRUNO",
+    "description": "Nini kinachonifanya niwe tofauti kama mtengenezaji wa tovuti nchini Uganda"
+  },
+  "projects": {
+    "badge": "Portfilio",
+    "title": "Miradi ya Utengenezaji wa Tovuti",
+    "description": "Uchaguzi wa kazi yangu ya hivi karibuni ya utengenezaji wa tovuti na programu inayoonyesha ujuzi wangu kama programu mtaalamu.",
+    "viewAll": "Angalia Miradi Yote",
+    "pageTitle": "Miradi ya Utengenezaji wa Tovuti na SEKIGANDA GEORGE BRUNO",
+    "pageDescription": "Onyesho la kazi yangu kama mtengenezaji wa tovuti na programu, ikionyesha utaalamu katika majukwaa ya biashara ya mtandao, mifumo ya biashara, na suluhisho maalum za wavuti.",
+    "ctaTitle": "Una Mradi wa Tovuti Akilini?",
+    "ctaDescription": "Unatafuta mtengenezaji wa tovuti mtaalamu nchini Uganda? Iwe unahitaji tovuti, programu ya wavuti, au jukwaa la biashara ya mtandao, SEKIGANDA GEORGE BRUNO anaweza kusaidia kuleta maono yako hai.",
+    "startProject": "Anza Mradi"
+  },
+  "services": {
+    "badge": "Huduma",
+    "title": "Huduma za Utengenezaji wa Tovuti",
+    "description": "Mtengenezaji wa tovuti mtaalamu, mjenzi wa programu, na huduma za uprogramu zilizorekebishwa kwa mahitaji ya biashara yako.",
+    "viewAll": "Huduma Zote",
+    "pageTitle": "Huduma za Utengenezaji wa Tovuti na SEKIGANDA GEORGE BRUNO",
+    "pageDescription": "Mtengenezaji wa tovuti mtaalamu, mjenzi wa programu, na huduma za uprogramu kusaidia biashara yako kufanikiwa katika ulimwengu wa kidijitali. Imeanzishwa Kampala, Uganda, inayohudumia wateja duniani kote.",
+    "websiteDesign": "Usanifu wa Tovuti",
+    "websiteDesignDesc": "Miundo ya tovuti nzuri, ya kisasa inayovutia hadhira yako na kuonyesha utambulisho wa chapa yako.",
+    "websiteDevelopment": "Utengenezaji wa Tovuti",
+    "websiteDevelopmentDesc": "Msimbo safi, unaofanya kazi kwa kutumia teknolojia za kisasa kama React, Django, na zaidi.",
+    "ecommerce": "Utengenezaji wa Biashara ya Mtandao",
+    "ecommerceDesc": "Maduka ya mtandao thabiti na malipo salama, usimamizi wa hesabu, na uchambuzi.",
+    "djangoBackend": "Utengenezaji wa Django Backend",
+    "djangoBackendDesc": "Utaalamu wa Django na Python kwa mahitaji yako ya backend. REST APIs, usanifu wa hifadhidata, uthibitishaji wa mtumiaji.",
+    "mobileBackend": "Backend ya Programu za Simu",
+    "mobileBackendDesc": "Mifumo yenye nguvu ya backend kuendesha programu zako za simu. Uthibitishaji wa mtumiaji, arifa za kusukuma, usawazishaji wa data kwa wakati halisi.",
+    "apiIntegrations": "Ujumuishaji wa API",
+    "apiIntegrationsDesc": "Ujumuishaji laini na API za watu wengine na huduma. Lango la malipo, majukwaa ya mitandao ya kijamii, huduma za barua pepe."
+  },
+  "process": {
+    "badge": "Jinsi Ninavyofanya Kazi",
+    "title": "Mchakato wa Utengenezaji wa Tovuti",
+    "description": "Njia iliyoratibiwa ya kutoa matokeo ya hali ya juu ya utengenezaji wa tovuti na programu.",
+    "discovery": "Uvumbuzi",
+    "discoveryDesc": "Tunajadili mahitaji ya mradi wako, malengo, na ratiba ya tovuti au programu yako.",
+    "planning": "Kupanga",
+    "planningDesc": "Ninaunda mpango wa kina wa mradi na usanifu wa kiufundi kwa mradi wako wa utengenezaji wa wavuti.",
+    "development": "Utengenezaji",
+    "developmentDesc": "Kujenga tovuti yako au programu na masasisho ya mara kwa mara na maoni.",
+    "launch": "Uzinduzi",
+    "launchDesc": "Majaribio, usambazaji, na msaada baada ya uzinduzi kwa tovuti yako mpya."
+  },
+  "trust": {
+    "title": "Kwa Nini Umwajiri SEKIGANDA GEORGE BRUNO kama Mtengenezaji Wako wa Tovuti?",
+    "description": "Kama mtengenezaji wa tovuti huru nchini Uganda, ninatoa huduma ya kibinafsi, bei ya ushindani, na kujitolea kwa ubora ambao mashirika makubwa hayawezi kulinganisha.",
+    "yearsExp": "Miaka ya Uzoefu",
+    "projectsCompleted": "Miradi Iliyokamilika",
+    "clientSatisfaction": "Kuridhika kwa Mteja"
+  },
+  "cta": {
+    "title": "Uko Tayari Kuanza Mradi Wako wa Tovuti?",
+    "description": "Unahitaji mtengenezaji wa tovuti mtaalamu nchini Uganda? Hebu tushirikiane na tuunde kitu cha kushangaza pamoja.",
+    "getInTouch": "Wasiliana",
+    "getQuote": "Pata Nukuu ya Bure",
+    "readyTitle": "Uko Tayari Kuanza na Tovuti Yako?",
+    "readyDescription": "Hebu tujadili mradi wako na tupate suluhisho bora la utengenezaji wa tovuti kwa biashara yako."
+  },
+  "about": {
+    "badge": "Kuhusu Mimi",
+    "greeting": "Habari, Mimi ni",
+    "intro": "Mimi ni SEKIGANDA GEORGE \"BRUNO\" (pia anajulikana kama Sekiganda Bruno, Sekigenda George, George Bruno), Mtengenezaji wa Tovuti, Mjenzi wa Programu, na Programu anayeishi Kampala, Uganda. Kwa upendo mkubwa wa teknolojia na utatuzi wa matatizo, nimejitolea taaluma yangu kuunda uzoefu bora wa kidijitali.",
+    "journey": "Safari yangu ilianza na udadisi kuhusu jinsi tovuti zinavyofanya kazi, ambayo iligeuka kuwa taaluma kamili kama mtengenezaji wa programu. Leo, nina utaalamu wa kujenga mifumo thabiti ya backend na Django na Python, kuunda frontends zinazoweza kubadilika na mifumo ya kisasa ya JavaScript kama React.",
+    "freelance": "Kama mtengenezaji wa tovuti huru nchini Uganda, ninahudumia wateja kote Kampala na zaidi, kusaidia biashara kuanzisha uwepo wao wa kidijitali kupitia utengenezaji wa wavuti wa kitaalamu.",
+    "location": "Kampala, Uganda",
+    "experience": "Miaka 5+ ya Uzoefu",
+    "projectsCompleted": "Miradi 6+ Iliyokamilika",
+    "viewResume": "Angalia CV Yangu",
+    "skillsBadge": "Utaalamu",
+    "skillsTitle": "Ujuzi na Teknolojia za Mtengenezaji wa Tovuti",
+    "skillsDescription": "Zana na teknolojia ninazotumia kama programu mtaalamu na mtengenezaji wa wavuti kuleta mawazo yako hai.",
+    "journeyBadge": "Safari",
+    "journeyTitle": "Uzoefu wa Utengenezaji wa Tovuti",
+    "journeyDescription": "Safari yangu ya kitaalamu kama mtengenezaji wa tovuti na programu nchini Uganda."
+  },
+  "contact": {
+    "badge": "Wasiliana",
+    "title": "Wasiliana na SEKIGANDA GEORGE BRUNO",
+    "description": "Una mradi wa tovuti akilini au unataka tu kusalimu? Ningependa kusikia kutoka kwako. Hebu tujadili jinsi ninavyoweza kusaidia na mahitaji yako ya utengenezaji wa wavuti.",
+    "letsConnect": "Tuwasiliane",
+    "location": "Mahali",
+    "email": "Barua Pepe",
+    "phone": "Simu",
+    "responseTime": "Kawaida ninajibu ndani ya",
+    "businessDays": "siku 1-2 za biashara",
+    "followOn": "Fuata SEKIGANDA GEORGE BRUNO kwenye",
+    "sendMessage": "Tuma Ujumbe kwa Bruno",
+    "yourName": "Jina Lako",
+    "emailAddress": "Anwani ya Barua Pepe",
+    "subject": "Mada",
+    "yourMessage": "Ujumbe Wako",
+    "messagePlaceholder": "Niambie kuhusu mradi wako wa tovuti au programu...",
+    "send": "Tuma Ujumbe kwa Bruno",
+    "sending": "Inatuma...",
+    "messageSent": "Ujumbe Umetumwa!",
+    "thankYou": "Asante kwa kuwasiliana. SEKIGANDA GEORGE BRUNO atawasiliana nawe ndani ya siku 1-2 za biashara."
+  },
+  "footer": {
+    "description": "SEKIGANDA GEORGE \"BRUNO\" — Mtengenezaji wa Tovuti Mtaalamu, Mjenzi wa Programu & Programu anayeishi Kampala, Uganda. Kujenga suluhisho za kidijitali zinazoleta tofauti.",
+    "quickLinks": "Viungo vya Haraka",
+    "contactDeveloper": "Wasiliana na Mtengenezaji wa Tovuti",
+    "copyright": "© {year} SEKIGANDA GEORGE \"BRUNO\" — Mtengenezaji wa Tovuti, Mjenzi wa Programu, Programu. Haki zote zimehifadhiwa.",
+    "designedBy": "Imeundwa na"
+  },
+  "resume": {
+    "title": "Wasifu / CV",
+    "description": "Angalia wasifu wa kitaalamu wa SEKIGANDA GEORGE BRUNO - Mtengenezaji wa Tovuti nchini Uganda",
+    "noResume": "Hakuna wasifu uliopakiwa bado.",
+    "checkBack": "Tafadhali rudi baadaye au wasiliana nami kwa habari zaidi kuhusu uzoefu wangu na sifa.",
+    "contactMe": "Wasiliana Nami"
+  },
+  "languages": {
+    "en": "Kiingereza",
+    "sw": "Kiswahili",
+    "lg": "Kiluganda",
+    "fr": "Kifaransa"
+  }
+}

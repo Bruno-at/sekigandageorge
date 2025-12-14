@@ -1,0 +1,144 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "services": "Services",
+    "contact": "Contact",
+    "hireMe": "Hire Me"
+  },
+  "hero": {
+    "location": "Website Developer in Kampala, Uganda",
+    "title1": "SEKIGANDA GEORGE",
+    "title2": "\"BRUNO\"",
+    "subtitle": "Website Developer | App Builder | Programmer",
+    "description": "I'm a professional website developer and software developer based in Uganda. I craft modern, scalable web applications using Python, Django, JavaScript, and React. Let's turn your ideas into digital reality.",
+    "viewProjects": "View Projects",
+    "yearsExperience": "5+ Years",
+    "webDevelopment": "Web Development",
+    "projectsDone": "Projects Done"
+  },
+  "whyChoose": {
+    "badge": "Why Choose Me",
+    "title": "Why Choose SEKIGANDA GEORGE BRUNO",
+    "description": "What sets me apart as a website developer in Uganda"
+  },
+  "projects": {
+    "badge": "Portfolio",
+    "title": "Featured Web Development Projects",
+    "description": "A selection of my recent website development and app building work showcasing my skills as a professional programmer.",
+    "viewAll": "View All Projects",
+    "pageTitle": "Web Development Projects by SEKIGANDA GEORGE BRUNO",
+    "pageDescription": "A showcase of my work as a website developer and app builder, demonstrating expertise in e-commerce platforms, business systems, and custom web solutions.",
+    "ctaTitle": "Have a Website Project in Mind?",
+    "ctaDescription": "Looking for a professional website developer in Uganda? Whether you need a website, web application, or e-commerce platform, SEKIGANDA GEORGE BRUNO can help bring your vision to life.",
+    "startProject": "Start a Project"
+  },
+  "services": {
+    "badge": "Services",
+    "title": "Website Development Services",
+    "description": "Professional website developer, app builder, and programming services tailored to your business needs.",
+    "viewAll": "All Services",
+    "pageTitle": "Website Development Services by SEKIGANDA GEORGE BRUNO",
+    "pageDescription": "Professional website developer, app builder, and programming services to help your business succeed in the digital world. Based in Kampala, Uganda, serving clients globally.",
+    "websiteDesign": "Website Design",
+    "websiteDesignDesc": "Beautiful, modern website designs that captivate your audience and reflect your brand identity. Professional web design services in Uganda.",
+    "websiteDevelopment": "Website Development",
+    "websiteDevelopmentDesc": "Clean, performant code using modern technologies like React, Django, and more. Best website developer in Kampala.",
+    "ecommerce": "E-Commerce Development",
+    "ecommerceDesc": "Robust online stores with secure payments, inventory management, and analytics. E-commerce specialist in Uganda.",
+    "djangoBackend": "Django Backend Development",
+    "djangoBackendDesc": "Expert Django and Python development for your backend needs. REST APIs, database design, user authentication, and integrations with third-party services.",
+    "mobileBackend": "Mobile App Backend",
+    "mobileBackendDesc": "Powerful backend systems to power your mobile applications. User authentication, push notifications, real-time data sync, and comprehensive API endpoints.",
+    "apiIntegrations": "API Integrations",
+    "apiIntegrationsDesc": "Seamless integration with third-party APIs and services. Payment gateways, social media platforms, email services, and custom API development."
+  },
+  "process": {
+    "badge": "How I Work",
+    "title": "Web Development Process",
+    "description": "A streamlined approach to deliver high-quality website and app development results.",
+    "discovery": "Discovery",
+    "discoveryDesc": "We discuss your project requirements, goals, and timeline for your website or app.",
+    "planning": "Planning",
+    "planningDesc": "I create a detailed project plan and technical architecture for your web development project.",
+    "development": "Development",
+    "developmentDesc": "Building your website or application with regular updates and feedback loops.",
+    "launch": "Launch",
+    "launchDesc": "Testing, deployment, and post-launch support for your new website."
+  },
+  "trust": {
+    "title": "Why Hire SEKIGANDA GEORGE BRUNO as Your Website Developer?",
+    "description": "As a freelance website developer in Uganda, I offer personalized service, competitive pricing, and a commitment to quality that larger agencies can't match.",
+    "yearsExp": "Years Experience",
+    "projectsCompleted": "Projects Completed",
+    "clientSatisfaction": "Client Satisfaction"
+  },
+  "cta": {
+    "title": "Ready to Start Your Website Project?",
+    "description": "Need a professional website developer in Uganda? Let's collaborate and build something amazing together. Contact SEKIGANDA GEORGE BRUNO to discuss your web development needs.",
+    "getInTouch": "Get In Touch",
+    "getQuote": "Get a Free Quote",
+    "readyTitle": "Ready to Get Started with Your Website?",
+    "readyDescription": "Let's discuss your project and find the perfect website development solution for your business. Contact SEKIGANDA GEORGE BRUNO today for a free quote!"
+  },
+  "about": {
+    "badge": "About Me",
+    "greeting": "Hello, I'm",
+    "intro": "I'm SEKIGANDA GEORGE \"BRUNO\" (also known as Sekiganda Bruno, Sekigenda George, George Bruno), a passionate Website Developer, App Builder, and Programmer based in Kampala, Uganda. With a deep love for technology and problem-solving, I've dedicated my career to crafting exceptional digital experiences.",
+    "journey": "My journey began with a curiosity about how websites work, which evolved into a full-fledged career as a software developer. Today, I specialize in building robust backend systems with Django and Python, creating responsive frontends with modern JavaScript frameworks like React, and developing complete e-commerce solutions.",
+    "freelance": "As a freelance website developer in Uganda, I serve clients across Kampala (Kyanja, Kyengera, Munyonyo) and beyond, helping businesses establish their digital presence through professional web development, app building, and programming services.",
+    "location": "Kampala, Uganda",
+    "experience": "5+ Years Experience",
+    "projectsCompleted": "6+ Projects Completed",
+    "viewResume": "View My Resume",
+    "skillsBadge": "Expertise",
+    "skillsTitle": "Website Developer Skills & Technologies",
+    "skillsDescription": "Tools and technologies I use as a professional programmer and web developer to bring your ideas to life.",
+    "journeyBadge": "Journey",
+    "journeyTitle": "Web Development Experience",
+    "journeyDescription": "My professional journey as a website developer and programmer in Uganda."
+  },
+  "contact": {
+    "badge": "Get in Touch",
+    "title": "Contact SEKIGANDA GEORGE BRUNO",
+    "description": "Have a website project in mind or just want to say hello? I'd love to hear from you. Let's discuss how I can help with your web development needs.",
+    "letsConnect": "Let's Connect",
+    "location": "Location",
+    "email": "Email",
+    "phone": "Phone",
+    "responseTime": "I typically respond within",
+    "businessDays": "1-2 business days",
+    "followOn": "Follow SEKIGANDA GEORGE BRUNO on",
+    "sendMessage": "Send a Message to Bruno",
+    "yourName": "Your Name",
+    "emailAddress": "Email Address",
+    "subject": "Subject",
+    "yourMessage": "Your Message",
+    "messagePlaceholder": "Tell me about your website or app development project...",
+    "send": "Send Message to Bruno",
+    "sending": "Sending...",
+    "messageSent": "Message Sent!",
+    "thankYou": "Thank you for reaching out. SEKIGANDA GEORGE BRUNO will get back to you within 1-2 business days."
+  },
+  "footer": {
+    "description": "SEKIGANDA GEORGE \"BRUNO\" — Professional Website Developer, App Builder & Programmer based in Kampala, Uganda. Building digital solutions that make a difference.",
+    "quickLinks": "Quick Links",
+    "contactDeveloper": "Contact Website Developer",
+    "copyright": "© {year} SEKIGANDA GEORGE \"BRUNO\" — Website Developer, App Builder, Programmer. All rights reserved.",
+    "designedBy": "Designed by"
+  },
+  "resume": {
+    "title": "Resume / CV",
+    "description": "View the professional resume of SEKIGANDA GEORGE BRUNO - Website Developer in Uganda",
+    "noResume": "No resume uploaded yet.",
+    "checkBack": "Please check back later or contact me for more information about my experience and qualifications.",
+    "contactMe": "Contact Me"
+  },
+  "languages": {
+    "en": "English",
+    "sw": "Swahili",
+    "lg": "Luganda",
+    "fr": "French"
+  }
+}
