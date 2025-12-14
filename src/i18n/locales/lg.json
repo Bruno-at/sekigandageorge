@@ -1,0 +1,144 @@
+{
+  "nav": {
+    "home": "Awaka",
+    "about": "Ebikwata ku",
+    "projects": "Puloojekiti",
+    "services": "Empeereza",
+    "contact": "Tuukirira",
+    "hireMe": "Nkola"
+  },
+  "hero": {
+    "location": "Omukozi w'emikutu mu Kampala, Uganda",
+    "title1": "SEKIGANDA GEORGE",
+    "title2": "\"BRUNO\"",
+    "subtitle": "Omukozi w'emikutu | Omuzimbi wa Pulogulaamu | Pulogulaama",
+    "description": "Ndi omukozi w'emikutu n'omukozi wa pulogulaamu omukugu abeera mu Uganda. Nkola pulogulaamu za yintaneeti ez'omulembe nga nkozesa Python, Django, JavaScript, ne React. Ka tufuule ebirowoozo byo eby'obunafu.",
+    "viewProjects": "Laba Puloojekiti",
+    "yearsExperience": "Emyaka 5+",
+    "webDevelopment": "Okukola Emikutu",
+    "projectsDone": "Puloojekiti Ezakolebwa"
+  },
+  "whyChoose": {
+    "badge": "Lwaki Nnonde",
+    "title": "Lwaki Olonde SEKIGANDA GEORGE BRUNO",
+    "description": "Kiki ekinfuula enjawulo ng'omukozi w'emikutu mu Uganda"
+  },
+  "projects": {
+    "badge": "Pulofolyo",
+    "title": "Puloojekiti z'Okukola Emikutu Ezasinga",
+    "description": "Ekulonda ku mulimu gwange ogw'okukola emikutu n'okuzimba pulogulaamu n'obukugu bwange ng'omupulogulaamu omukugu.",
+    "viewAll": "Laba Puloojekiti Zonna",
+    "pageTitle": "Puloojekiti z'Okukola Emikutu na SEKIGANDA GEORGE BRUNO",
+    "pageDescription": "Okulaga omulimu gwange ng'omukozi w'emikutu n'omuzimbi wa pulogulaamu, nga ndaga obukugu mu mbeera z'ebyacuuza ku yintaneeti.",
+    "ctaTitle": "Olina Puloojekiti y'Omukutu mu Birowoozo?",
+    "ctaDescription": "Onoonya omukozi w'emikutu omukugu mu Uganda? Oba oyagala omukutu, pulogulaamu ya yintaneeti, oba ekikutu ky'ebyacuuza, SEKIGANDA GEORGE BRUNO asobola okukuyamba okulaba okuteebereza kwo.",
+    "startProject": "Tandika Puloojekiti"
+  },
+  "services": {
+    "badge": "Empeereza",
+    "title": "Empeereza z'Okukola Emikutu",
+    "description": "Omukozi w'emikutu omukugu, omuzimbi wa pulogulaamu, n'empeereza z'okupulogulaamu ezitegekeddwa ku byetaago by'omulimu gwo.",
+    "viewAll": "Empeereza Zonna",
+    "pageTitle": "Empeereza z'Okukola Emikutu na SEKIGANDA GEORGE BRUNO",
+    "pageDescription": "Omukozi w'emikutu omukugu, omuzimbi wa pulogulaamu, n'empeereza z'okupulogulaamu okuyamba omulimu gwo okuwanguka mu nsi ey'ekidijitalo.",
+    "websiteDesign": "Okutegeka Omukutu",
+    "websiteDesignDesc": "Enteekateeka z'emikutu ennungi, ez'omulembe ezikwata abantu abakutunuulira era eziraga ekifaananyi ky'omulimu gwo.",
+    "websiteDevelopment": "Okukola Omukutu",
+    "websiteDevelopmentDesc": "Koodi ennywevu, ekola bulungi nga nkozesa tekinologiya ez'omulembe nga React, Django, n'endala.",
+    "ecommerce": "Okukola Ebyacuuza ku Yintaneeti",
+    "ecommerceDesc": "Amadduuka g'okutundira ku yintaneeti amanywezzevu n'okusasula okukuumi, okukuuma ebintu, n'okusengula.",
+    "djangoBackend": "Okukola Django Backend",
+    "djangoBackendDesc": "Obukugu bwa Django ne Python ku byetaago byo bya backend. REST APIs, okutegeka deetabesi, okukakasa abakozesa.",
+    "mobileBackend": "Backend y'Essimu",
+    "mobileBackendDesc": "Enkola za backend ezirimu amaanyi okukola pulogulaamu zo ez'essimu. Okukakasa abakozesa, obubaka, n'okusynca data mu kiseera ekituufu.",
+    "apiIntegrations": "Okugatta API",
+    "apiIntegrationsDesc": "Okugatta bulungi ne API z'abalala n'empeereza. Ennyiriri z'okusasula, emikutu gya social media, empeereza z'email."
+  },
+  "process": {
+    "badge": "Engeri Gyenkola",
+    "title": "Enkola y'Okukola Emikutu",
+    "description": "Oluuyi olw'okutuuka ku bivuddemu eby'omulembe ogwa waggulu mu kukola emikutu ne pulogulaamu.",
+    "discovery": "Okuzuula",
+    "discoveryDesc": "Tunyumya ku byetaago bya puloojekiti yo, ebigendererwa, n'ekiseera ky'omukutu gwo oba pulogulaamu.",
+    "planning": "Okutegeka",
+    "planningDesc": "Nkola entegeka ya puloojekiti eteekeddwawo n'enteekateeka ya tekinikali ku puloojekiti yo ey'okukola emikutu.",
+    "development": "Okukola",
+    "developmentDesc": "Okuzimba omukutu gwo oba pulogulaamu n'ebipya ebikujjako n'okuddamu.",
+    "launch": "Okutandika",
+    "launchDesc": "Okukebera, okusindika, n'obuyambi oluvannyuma lw'okutandika ku mukutu gwo omuggya."
+  },
+  "trust": {
+    "title": "Lwaki Okwate SEKIGANDA GEORGE BRUNO ng'Omukozi w'Emikutu Gwo?",
+    "description": "Ng'omukozi w'emikutu eyeekola mu Uganda, nkuwa empeereza ya wekka, emiwendo egimu, n'okuddukira emitendera gya waggulu amakofiira amanene ge tegasobola kukwatagana nago.",
+    "yearsExp": "Emyaka gy'Obumanyirivu",
+    "projectsCompleted": "Puloojekiti Ezaakolebwa",
+    "clientSatisfaction": "Okumatiira kw'Abakasitoma"
+  },
+  "cta": {
+    "title": "Oli Mulungamye Okutandika Puloojekiti y'Omukutu Gwo?",
+    "description": "Oyagala omukozi w'emikutu omukugu mu Uganda? Ka tukoleremu wamu era tuzimbe ekimu ekikyangu. Tuukirira SEKIGANDA GEORGE BRUNO okunyumya ku byetaago byo by'okukola emikutu.",
+    "getInTouch": "Tuukirira",
+    "getQuote": "Funa Omuwendo Ogwa Bwereere",
+    "readyTitle": "Oli Mulungamye Okutandika n'Omukutu Gwo?",
+    "readyDescription": "Ka tunyumye puloojekiti yo era tufune ekisumuluzo ekisinga obulungi eky'okukola emikutu ku mulimu gwo."
+  },
+  "about": {
+    "badge": "Ebikwata ku Nze",
+    "greeting": "Ssebo, Nze",
+    "intro": "Nze SEKIGANDA GEORGE \"BRUNO\" (era mmanyiddwa nga Sekiganda Bruno, Sekigenda George, George Bruno), Omukozi w'Emikutu, Omuzimbi wa Pulogulaamu, ne Pulogulaama abeera mu Kampala, Uganda. N'okwagala okungi ennyo okwa tekinologiya n'okutattaanya ebizibu, nneeyigiriza okukola ebirowoozo ebisinga obulungi eby'ekidijitalo.",
+    "journey": "Olugendo lwange lwatandika n'okwagala okumanya emikutu gye gikola, ekyadda okufuuka omulimu omuzima ng'omukozi wa pulogulaamu. Leero, ndi mukugu mu kuzimba enkola za backend ez'amaanyi ne Django ne Python, okukola frontends eziddamu ne mbeera za JavaScript ez'omulembe nga React.",
+    "freelance": "Ng'omukozi w'emikutu eyeekola mu Uganda, mpeereza abakasitoma okitundu Kampala n'ebyenjawulo, okuyamba bizinensi okusimba obubeera bwabwe obw'ekidijitalo okuyitira mu kukola emikutu okw'omulembe.",
+    "location": "Kampala, Uganda",
+    "experience": "Emyaka 5+ gy'Obumanyirivu",
+    "projectsCompleted": "Puloojekiti 6+ Ezakolebwa",
+    "viewResume": "Laba CV Yange",
+    "skillsBadge": "Obukugu",
+    "skillsTitle": "Obukugu ne Tekinologiya z'Omukozi w'Emikutu",
+    "skillsDescription": "Ebikozesebwa ne tekinologiya ze nkozesa ng'omupulogulaamu omukugu n'omukozi w'emikutu okuleta ebirowoozo byo mu bulamu.",
+    "journeyBadge": "Olugendo",
+    "journeyTitle": "Obumanyirivu bw'Okukola Emikutu",
+    "journeyDescription": "Olugendo lwange olw'omulimu ng'omukozi w'emikutu ne pulogulaama mu Uganda."
+  },
+  "contact": {
+    "badge": "Tuukirira",
+    "title": "Tuukirira SEKIGANDA GEORGE BRUNO",
+    "description": "Olina puloojekiti y'omukutu mu birowoozo oba oyagala kutukya? Nandyagadde okuwulira okuva gy'oli. Ka tunyumye engeri gyenyinza okukuyamba mu byetaago byo by'okukola emikutu.",
+    "letsConnect": "Ka Tuyunge",
+    "location": "Ekifo",
+    "email": "Email",
+    "phone": "Essimu",
+    "responseTime": "Bulijjo nziramu mu",
+    "businessDays": "ennaku 1-2 ez'omulimu",
+    "followOn": "Goberera SEKIGANDA GEORGE BRUNO ku",
+    "sendMessage": "Senda Obubaka eri Bruno",
+    "yourName": "Erinnya Lyo",
+    "emailAddress": "Endagiriro ya Email",
+    "subject": "Omutwe",
+    "yourMessage": "Obubaka Bwo",
+    "messagePlaceholder": "Mbuulira ebikwata ku puloojekiti yo ey'omukutu oba pulogulaamu...",
+    "send": "Senda Obubaka eri Bruno",
+    "sending": "Okusenda...",
+    "messageSent": "Obubaka Busendeddwa!",
+    "thankYou": "Weebale okutuyukirira. SEKIGANDA GEORGE BRUNO ajja kukuddamu mu nnaku 1-2 ez'omulimu."
+  },
+  "footer": {
+    "description": "SEKIGANDA GEORGE \"BRUNO\" — Omukozi w'Emikutu Omukugu, Omuzimbi wa Pulogulaamu & Pulogulaama abeera mu Kampala, Uganda. Okuzimba ebisumuluzo eby'ekidijitalo ebireeta enjawulo.",
+    "quickLinks": "Amalinki ag'Amangu",
+    "contactDeveloper": "Tuukirira Omukozi w'Emikutu",
+    "copyright": "© {year} SEKIGANDA GEORGE \"BRUNO\" — Omukozi w'Emikutu, Omuzimbi wa Pulogulaamu, Pulogulaama. Eddembe lyonna liri ku nze.",
+    "designedBy": "Yatekebwa"
+  },
+  "resume": {
+    "title": "Obusumuluzi / CV",
+    "description": "Laba obusumuluzi obw'omulimu bwa SEKIGANDA GEORGE BRUNO - Omukozi w'Emikutu mu Uganda",
+    "noResume": "Tewali busumuluzi buteekeddwayo.",
+    "checkBack": "Nsaba okoome oluvannyuma oba ontuukirire olw'ebisingawo ebikwata ku bumanyirivu bwange n'obukugu.",
+    "contactMe": "Ntuukirira"
+  },
+  "languages": {
+    "en": "Lungereza",
+    "sw": "Luswayiri",
+    "lg": "Oluganda",
+    "fr": "Lufalansa"
+  }
+}
