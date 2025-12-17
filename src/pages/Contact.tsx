@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { motion } from 'framer-motion';
 import { MapPin, Mail, Phone, Send, Github, Linkedin, Youtube, Clock } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -9,27 +9,6 @@ import { SectionHeading } from '@/components/SectionHeading';
 import { SEOHead } from '@/components/SEOHead';
 import { useToast } from '@/hooks/use-toast';
 
-const contactInfo = [
-  {
-    icon: MapPin,
-    label: 'Location',
-    value: 'Kampala, Kyanja, Uganda',
-    href: null,
-  },
-  {
-    icon: Mail,
-    label: 'Email',
-    value: 'brunog0745090566@gmail.com',
-    href: 'mailto:brunog0745090566@gmail.com',
-  },
-  {
-    icon: Phone,
-    label: 'Phone',
-    value: '+256 708 434 656',
-    href: 'tel:+256708434656',
-  },
-];
-
 const socialLinks = [
   { icon: Github, href: 'https://github.com/Bruno-at', label: 'GitHub - SEKIGANDA GEORGE BRUNO', title: 'Follow Bruno on GitHub' },
   { icon: Linkedin, href: 'https://www.linkedin.com/in/sekiganda-george-bruno', label: 'LinkedIn - Sekiganda George Bruno', title: 'Connect with Bruno on LinkedIn' },
@@ -37,6 +16,7 @@ const socialLinks = [
 ];
 
 const Contact = () => {
+  const { t } = useTranslation();
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState({
@@ -46,6 +26,12 @@ const Contact = () => {
     message: '',
   });
 
+  const contactInfo = [
+    { icon: MapPin, label: t('contact.location'), value: 'Kampala, Kyanja, Uganda', href: null },
+    { icon: Mail, label: t('contact.email'), value: 'brunog0745090566@gmail.com', href: 'mailto:brunog0745090566@gmail.com' },
+    { icon: Phone, label: t('contact.phone'), value: '+256 708 434 656', href: 'tel:+256708434656' },
+  ];
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -54,12 +40,11 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
     await new Promise(resolve => setTimeout(resolve, 1000));
 
     toast({
-      title: "Message Sent!",
-      description: "Thank you for reaching out. SEKIGANDA GEORGE BRUNO will get back to you within 1-2 business days.",
+      title: t('contact.messageSent'),
+      description: t('contact.messageDesc'),
     });
 
     setFormData({ name: '', email: '', subject: '', message: '' });
@@ -68,7 +53,7 @@ const Contact = () => {
 
   return (
     <>
-      <SEOHead 
+      <SEOHead
         title="Contact SEKIGANDA GEORGE BRUNO | Hire Website Developer Uganda"
         description="Contact SEKIGANDA GEORGE 'BRUNO' - professional website developer, app builder, and programmer in Kampala, Uganda. Get a free quote for your web development project. Email: brunog0745090566@gmail.com. Best freelance website developer in Uganda."
         canonicalUrl="https://sekigandageorge.com/contact"
@@ -79,9 +64,9 @@ const Contact = () => {
       <section className="section-padding pt-32" aria-labelledby="contact-heading">
         <div className="container-custom">
           <SectionHeading
-            badge="Get in Touch"
-            title="Contact SEKIGANDA GEORGE BRUNO"
-            description="Have a website project in mind or just want to say hello? I'd love to hear from you. Let's discuss how I can help with your web development needs."
+            badge={t('contact.badge')}
+            title={t('contact.title')}
+            description={t('contact.description')}
           />
         </div>
       </section>
@@ -95,7 +80,7 @@ const Contact = () => {
               <AnimatedSection direction="left">
                 <div className="glass-card p-8">
                   <h2 className="font-display font-semibold text-2xl text-foreground mb-6">
-                    Let's Connect
+                    {t('contact.letsConnect')}
                   </h2>
 
                   <div className="space-y-6 mb-8">
@@ -126,13 +111,13 @@ const Contact = () => {
                   <div className="flex items-center gap-3 p-4 bg-secondary/50 rounded-xl mb-8">
                     <Clock className="w-5 h-5 text-primary" aria-hidden="true" />
                     <p className="text-sm text-muted-foreground">
-                      I typically respond within <span className="text-foreground font-medium">1-2 business days</span>
+                      {t('contact.responseTime')}
                     </p>
                   </div>
 
                   {/* Social Links */}
                   <div>
-                    <p className="text-sm text-muted-foreground mb-4">Follow SEKIGANDA GEORGE BRUNO on</p>
+                    <p className="text-sm text-muted-foreground mb-4">{t('contact.followOn')}</p>
                     <div className="flex gap-3">
                       {socialLinks.map((social) => (
                         <a
@@ -158,13 +143,13 @@ const Contact = () => {
               <AnimatedSection direction="right">
                 <form onSubmit={handleSubmit} className="glass-card p-8" aria-label="Contact form">
                   <h2 className="font-display font-semibold text-2xl text-foreground mb-6">
-                    Send a Message to Bruno
+                    {t('contact.sendMessage')}
                   </h2>
 
                   <div className="grid md:grid-cols-2 gap-6 mb-6">
                     <div>
                       <label htmlFor="name" className="block text-sm font-medium text-foreground mb-2">
-                        Your Name
+                        {t('contact.form.name')}
                       </label>
                       <Input
                         id="name"
@@ -180,7 +165,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <label htmlFor="email" className="block text-sm font-medium text-foreground mb-2">
-                        Email Address
+                        {t('contact.form.email')}
                       </label>
                       <Input
                         id="email"
@@ -198,13 +183,13 @@ const Contact = () => {
 
                   <div className="mb-6">
                     <label htmlFor="subject" className="block text-sm font-medium text-foreground mb-2">
-                      Subject
+                      {t('contact.form.subject')}
                     </label>
                     <Input
                       id="subject"
                       name="subject"
                       type="text"
-                      placeholder="Website Development Project Inquiry"
+                      placeholder={t('contact.form.subjectPlaceholder')}
                       value={formData.subject}
                       onChange={handleChange}
                       required
@@ -215,12 +200,12 @@ const Contact = () => {
 
                   <div className="mb-8">
                     <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
-                      Your Message
+                      {t('contact.form.message')}
                     </label>
                     <Textarea
                       id="message"
                       name="message"
-                      placeholder="Tell me about your website or app development project..."
+                      placeholder={t('contact.form.messagePlaceholder')}
                       rows={6}
                       value={formData.message}
                       onChange={handleChange}
@@ -232,10 +217,10 @@ const Contact = () => {
 
                   <Button type="submit" variant="hero" className="w-full" disabled={isSubmitting}>
                     {isSubmitting ? (
-                      'Sending...'
+                      t('contact.sending')
                     ) : (
                       <>
-                        Send Message to Bruno
+                        {t('contact.sendButton')}
                         <Send size={18} aria-hidden="true" />
                       </>
                     )}
@@ -253,39 +238,39 @@ const Contact = () => {
           <AnimatedSection>
             <div className="glass-card p-8 md:p-12">
               <h2 id="seo-guide-heading" className="font-display text-2xl font-bold text-foreground mb-6 text-center">
-                Google Search Console Setup Guide
+                {t('contact.seoGuide.title')}
               </h2>
               <p className="text-muted-foreground text-center mb-8 max-w-2xl mx-auto">
-                After your website is live, follow these steps to get indexed on Google and start appearing in search results:
+                {t('contact.seoGuide.description')}
               </p>
               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div className="text-center p-4">
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-3">
                     <span className="text-primary font-bold">1</span>
                   </div>
-                  <h3 className="font-semibold text-foreground mb-2">Verify Domain</h3>
-                  <p className="text-sm text-muted-foreground">Go to Google Search Console and verify your domain ownership</p>
+                  <h3 className="font-semibold text-foreground mb-2">{t('contact.seoGuide.step1.title')}</h3>
+                  <p className="text-sm text-muted-foreground">{t('contact.seoGuide.step1.desc')}</p>
                 </div>
                 <div className="text-center p-4">
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-3">
                     <span className="text-primary font-bold">2</span>
                   </div>
-                  <h3 className="font-semibold text-foreground mb-2">Submit Sitemap</h3>
-                  <p className="text-sm text-muted-foreground">Submit your sitemap.xml file to help Google crawl your site</p>
+                  <h3 className="font-semibold text-foreground mb-2">{t('contact.seoGuide.step2.title')}</h3>
+                  <p className="text-sm text-muted-foreground">{t('contact.seoGuide.step2.desc')}</p>
                 </div>
                 <div className="text-center p-4">
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-3">
                     <span className="text-primary font-bold">3</span>
                   </div>
-                  <h3 className="font-semibold text-foreground mb-2">Request Indexing</h3>
-                  <p className="text-sm text-muted-foreground">Request indexing for your main pages to speed up the process</p>
+                  <h3 className="font-semibold text-foreground mb-2">{t('contact.seoGuide.step3.title')}</h3>
+                  <p className="text-sm text-muted-foreground">{t('contact.seoGuide.step3.desc')}</p>
                 </div>
                 <div className="text-center p-4">
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-3">
                     <span className="text-primary font-bold">4</span>
                   </div>
-                  <h3 className="font-semibold text-foreground mb-2">Connect Analytics</h3>
-                  <p className="text-sm text-muted-foreground">Set up Google Analytics to track your website visitors (optional)</p>
+                  <h3 className="font-semibold text-foreground mb-2">{t('contact.seoGuide.step4.title')}</h3>
+                  <p className="text-sm text-muted-foreground">{t('contact.seoGuide.step4.desc')}</p>
                 </div>
               </div>
             </div>
